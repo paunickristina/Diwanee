@@ -1,0 +1,1382 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 18px;
+	color: #222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400; 
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 80px;
+	font-weight: 500;
+	margin-top: 0;
+	margin-bottom: 39px; 
+}
+h2 {
+	font-size: 50px;
+	line-height: 50px; 
+}
+h3 {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 22px;
+}
+h4 {font-size: 18px;}
+h5 {font-size: 16px;}
+h6 {font-size: 14px;}
+
+hr {
+	width: 57px;
+	border: 1px solid #c41230;
+	margin: 0 auto;
+}
+
+img {
+	vertical-align: bottom;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #222; 
+	transition: 0.1s all ease;
+}
+a:hover {
+	color: #c41230;
+}
+a:active {
+	color: #999; 
+}
+
+.wrapper {
+	width: 920px;
+	margin: 0 auto;
+	padding-top: 1px;
+}
+
+.wrapper:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.button {
+	border: 2px solid #222;
+	border-radius: 2px;
+	display: inline-block;
+	padding: 13px 37px;
+	margin: 77px 0 106px 0;
+	font-size: 14px;
+	letter-spacing: 0.15em;
+}
+
+.button:link,
+.button:visited {
+	color: #222; 
+}
+
+.button:hover {
+	color: #c41230;
+}
+
+.button:active {
+	color: #999;
+}
+
+.negative .button {
+	border: 2px solid #f2f2f2;
+}
+
+.negative .button:link,
+.negative .button:visited {
+	color: #f2f2f2; 
+}
+
+.negative .button:hover {
+	color: #c41230;
+}
+
+.negative .button:active {
+	color: #999;
+}
+
+.button1 {
+	border: 1px solid #bbb;
+	border-radius: 2px;
+	display: inline-block;
+	padding: 7px 18px;
+	margin: 35px 8px 42px 0;
+	font-size: 13px;
+}
+
+.button1:link,
+.button1:visited {
+	color: #c41230; 
+}
+
+.button1:hover {
+	color: #222;
+}
+
+.button1:active {
+	color: #999;
+}
+
+
+.negative .button1 {
+	border: 1px solid #f2f2f2;
+}
+
+.negative .button1:link,
+.negative .button1:visited {
+	color: #f2f2f2; 
+}
+
+.negative .button1:hover {
+	color: #c41230;
+}
+
+.negative .button1:active {
+	color: #999;
+}
+
+#header {
+	background: url(../images/hero.jpg);
+	background-position: center center;
+	background-size: cover; 
+}
+
+
+#logo {
+	float: left;
+	margin-top: 26px;
+}
+
+#nav {
+	float: right;
+}
+
+#nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#nav ul li {
+	float: left;
+}
+
+#nav ul li a {
+	display: block;
+	margin: 43px 20px 43px 20px;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 14px;
+}
+
+#nav ul li:last-of-type {
+	display: none;
+}
+
+#nav ul li:nth-of-type(3) a {
+	margin-right: 0;
+}
+
+#respmenu {
+	display:none;
+	font-size:20px;
+}
+
+#headerBottom {
+	text-align: center;
+	padding: 130px 0 242px;
+}
+
+#headerBottom .wrapper {
+	width: 650px;
+}
+
+#headerBottom .wrapper div { 
+	width: 548px;
+	margin: 0 auto;
+	margin-top: 45px;
+}
+
+#headerBottom p {
+	font-size: 24px;
+	line-height: 30px;
+	margin: 0;
+}
+
+#headerBottom p:nth-of-type(2) {
+	text-transform: uppercase;
+	display: none;
+}
+
+#services {
+	overflow: hidden;
+	padding-bottom: 137px;
+}
+
+
+#services hr {
+	border: 1px solid #d0d0d0;
+}
+
+.service {
+	float: left;
+	width: 33.33%;
+	box-sizing: border-box;
+	padding: 95px 60px 75px;
+	text-align: center;
+	font-size: 16px;
+	background: #fbfbfb;
+}
+
+.service:nth-of-type(2) {
+	background: #ededed;
+}
+
+.service h4 {
+	margin: 42px 0;
+	font-weight: 500;
+	letter-spacing: 0.2em;
+}
+
+.service p {
+	font-weight: 300;
+	margin: 38px 0 0;
+	line-height: 24px;
+}
+
+
+
+
+
+#poslovi .wrapper {
+	width: 840px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#poslovi header {
+	text-align: center;
+}
+
+#poslovi header h6 {
+	letter-spacing: 0.15em;
+	color: #999;
+	margin: 0;
+}
+
+#poslovi header h2 {
+	margin: 40px 0 42px;
+}
+
+#poslovi header p {
+	width: 700px;
+	margin: 60px auto 105px; 
+	line-height: 34px;
+	font-weight: 300;
+	font-size: 24px;
+}
+
+.jobAd {
+	padding-top: 30px;
+}
+
+.jobAd:nth-of-type(2) {
+	padding-bottom: 8px;
+}
+
+.jobAd .wrapper div:nth-of-type(1){
+	float: left;
+	width: 520px;
+	padding-right: 150px;
+}
+
+.jobAd .wrapper div:nth-of-type(2) {
+	float: right;
+	width: 170px;
+	text-align: right;
+}
+
+.jobAd p {
+	letter-spacing: 0.01em;
+	line-height: 28px;
+	margin-bottom: 0;
+}
+
+#poslovi .negative {
+	background: #222;
+	color: #f2f2f2;
+}
+
+.buttons ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.buttons ul li {
+	float: left;
+}
+
+.buttons ul li:last-of-type a {
+	margin-right: 0;
+}
+
+#poslovi .wrapper:nth-child(5) {
+	text-align: center;
+}
+
+.pozicije {
+	background: #ececec;
+	font-size: 14px;
+	letter-spacing: 0.15em;
+	padding: 20px 23px;
+	margin: 100px 0 136px;
+	display: inline-block; 
+}
+
+
+
+#about {
+	background: #fbfbfb;
+	text-align: center;
+}
+
+#about .wrapper {
+	width: 840px;
+	padding: 60px 40px 112px;
+}
+
+#about h6 {
+	letter-spacing: 0.15em;
+	color: #999;
+}
+
+#about p {
+	line-height: 28px;
+	text-align: left;
+}
+
+#about p:first-of-type {
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+
+
+#social {
+	text-align: center;
+	padding: 86px 0 107px;
+}
+
+#social .wrapper p {
+	color: #999;
+}
+
+#social .icons {
+	width: 136px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#social .icons a {
+	display: block;
+	float: left;
+	width: 64px;
+	height: 64px;
+	font-size: 30px;
+	line-height: 64px;
+}
+
+#social .icons a:link i ,
+#social .icons a:visited i {
+	color: #fff;
+	transition: 0.1s all ease;
+}
+
+#social .icons a:hover i,
+#social .icons a:active i {
+	font-size: 35px;
+	line-height: 64px;
+}
+
+#social .icons a:nth-of-type(1) {
+	background: #20b9ff;
+	margin-right: 8px;
+}
+
+#social .icons a:nth-of-type(2) {
+	background: #3c5a9a;
+}
+
+
+
+#footerTop {
+	background: #222;
+	color: #666;
+	font-size: 15px;
+	line-height: 24px;
+	padding-top: 162px;
+	padding-bottom: 105px;
+}
+
+#footerTop p {
+	margin: 0;
+}
+
+#footerTop .footerBlock {
+	width: 210px;
+	float: left;
+	margin-right: 172px;
+}
+
+#footerTop .footerBlock:last-of-type {
+	width: 156px;
+	margin-right: 0;
+}
+
+#footerTop .footerBlock h5 {
+	color: #f2f2f2;
+}
+
+#footerTop .footerBlock h5 i {
+	color: #c41230;
+	font-size: 34px;
+	vertical-align: middle;
+}
+
+
+#footerBottom {
+	background: #1e1e1e;
+	color: #666;
+	font-weight: 300;
+	font-size: 12px;
+	padding: 31px 0 30px;
+}
+
+#footerBottom .footerBlock {
+	float: right;
+	width: 460px;
+}
+
+
+#footerBottom .footerBlock:first-of-type div {
+	float: right;
+}
+
+#footerBottom .footerBlock:first-of-type div:first-of-type {
+	padding-top: 7px;
+}
+
+
+#footerBottom p {
+	margin: 0;
+}
+
+#footerBottom .footerBlock p:last-of-type {
+	display: none;
+}
+
+#footerBottom a:link,
+#footerBottom a:visited { 
+	color: #666;
+}
+
+#footerBottom a:hover {
+	color:  #c41230;
+}
+
+#footerBottom a:active {
+	color:  #999;
+}
+
+
+#footerBottom .footerBlock i {
+	font-size: 22px;
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.wrapper {
+		width: 720px;
+	}
+	
+	#nav ul li a {
+		margin: 43px 10px 43px 10px;
+	}
+	
+	#logo img {
+		height: 34px;
+	}
+	
+	#headerBottom {
+		padding: 66px 0 120px;
+	}
+	
+	h1 {
+		font-size: 70px;
+	}
+	
+	#headerBottom hr {
+		display: none;
+	}
+	
+	#services {
+		padding-bottom: 158px;
+	}
+	
+	.service {
+		padding: 42px 14px 84px;
+	}
+		
+	.service h4 {
+		font-size: 20px;
+		margin: 32px 0;
+	}
+	
+	.service p {
+		margin: 25px 0 0;
+		line-height: 28px;
+		font-size: 17px;
+	}
+	
+	
+	#poslovi .wrapper {
+		width: 640px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	
+	.jobAd .wrapper div:nth-of-type(1){
+		float: left;
+		width: 420px;
+		padding-right: 50px;
+	}
+
+	.jobAd .wrapper div:nth-of-type(2) {
+		float: right;
+		width: 170px;
+		text-align: right;
+	}
+	
+	#poslovi header h2 {
+		margin: 45px 0 47px;
+	}
+	
+	#poslovi header p {
+		width: auto;
+		margin: 45px auto 55px; 
+	}
+	
+	.jobAd:nth-of-type(1) .button1 {
+		margin-bottom: 70px;
+	}
+	
+	.jobAd:nth-of-type(3) {
+		padding-top: 50px;
+	}
+	
+	.pozicije {
+		margin: 60px 0 140px;
+	}
+	
+	
+	#about .wrapper {
+		width: 640px;
+		padding: 58px 40px 112px;
+	}
+	
+	#social {
+		padding: 76px 0 137px;
+	}
+	
+	
+	#footerTop .wrapper {
+		width: 640px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	
+	#footerTop .footerBlock {
+		margin-right: 32px;
+	}
+	
+	#footerBottom .footerBlock {
+		width: 360px;
+	}
+
+} 
+
+
+
+
+@media screen and (min-width: 420px) and (max-width: 767px) {
+	.wrapper {
+		width: 80%;
+	}
+	
+	#headerTop .wrapper {
+		width: 100%;
+	}
+	
+	#logo {
+		margin-top: 13px;
+		margin-left: 5%;
+	}
+	
+	#headerTop .wrapper {
+		position: relative;
+	}
+	
+	#headerTop .wrapper div:nth-of-type(2) {
+		float: right;
+		margin-top: 23px;
+		margin-right: 5%;
+	}
+	
+	#respmenu {
+		display: block;
+	}
+	
+	#nav {
+		position: absolute;
+		float: none;
+		top: 70px;
+		width: 100%;
+		background: rgba(0, 0, 0, 0.9);
+		color: #ccc;
+	}
+	
+	#nav ul {
+		display: none;
+		padding-top: 128px;
+	}
+	
+	#nav ul li {
+		float: none;
+	}
+	
+	#nav ul li:last-of-type {
+		display: block;
+	}
+	
+	#nav ul li a {
+		font-size: 24px;
+		line-height: 24px;
+		letter-spacing: 0.01em;
+		text-align: center;
+		margin: 0 0 61px 0;
+	}
+	
+	#nav ul li a:link, 
+	#nav ul li a:visited {
+		color: #ccc;
+	}
+	
+	#nav ul li a:hover {
+		color: #c41230;
+	}
+	#nav ul li a:active {
+		color: #999; 
+	}
+	
+	#nav ul li div {
+		overflow: hidden;
+		padding-top: 56px;
+		padding-bottom: 17px;
+	}
+	
+	#nav ul li div span {
+		float: left;
+		margin-left: 5%;
+		font-size: 16px;
+		letter-spacing: 0.21em;
+	}
+	
+	#nav ul li div a {
+		float: right;
+		margin: 0;
+		font-size: 30px;
+	}
+	
+	#nav ul li div a:link,
+	#nav ul li div a:visited {
+		color: #9b9b9b;
+	}
+	
+	#nav ul li div a:hover {
+		color: #c41230;
+	}
+	#nav ul li div a:active {
+		color: #999; 
+	}
+	
+	#nav ul li div a:first-of-type {
+		margin-right: 5%;
+		margin-left: 27px;
+	}
+	
+	
+	
+
+	
+	#headerBottom {
+		padding: 110px 0 200px;
+	}
+		
+	
+	#headerBottom .wrapper {
+		width: 63%;
+	}
+	
+	h1 {
+		font-size: 60px;
+		letter-spacing: 0.01em;
+		line-height: 58px;
+	}
+	
+	#headerBottom hr {
+		display: none;
+	}
+	
+	#headerBottom p:nth-of-type(1) {
+		display: none;
+	}
+	
+	#headerBottom p:nth-of-type(2) {
+		display: block;
+		font-size: 20px;
+	}
+	
+	#headerBottom .wrapper div { 
+		width: auto;
+		margin: 0 auto;
+		margin-top: 45px;
+	}
+	
+	
+	#services {
+		padding-bottom: 88px;
+	}
+	
+	.service {
+		float: none;
+		width: auto;
+		padding: 52px 10% 66px;
+		font-size: 18px;
+		line-height: 30px;
+	}
+	
+	.service h4 {
+		margin: 30px 0;
+	}
+	
+	#poslovi .wrapper {
+		width: 80%;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	
+	#poslovi header p {
+		width: 80%;
+		line-height: 30px;
+		font-size: 20px;
+		margin: 40px auto 80px;
+	}
+	
+	#poslovi header h2 {
+		margin: 24px 0 27px;
+		font-size: 40px;
+		line-height: 24px;
+	}
+	
+	.jobAd .wrapper div:nth-of-type(1){
+		float: none;
+		width: auto;
+		padding-right: 0;
+	}
+	
+	.jobAd .wrapper div:nth-of-type(2) {
+		display: none;
+	}
+	
+	.jobAd {
+		background: #f8f7f5;
+	}
+	
+	.jobAd:nth-of-type(2) {
+		padding-bottom: 0;
+	}
+	
+	#poslovi .negative {
+		background: #fff;
+		color: #222;
+	}
+	
+	.jobAd h3 {
+		font-size: 18px;
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	
+	.jobAd p {
+		letter-spacing: 0.05em;
+		line-height: 20px;
+		font-size: 15px;
+	}
+	
+	.buttons ul li:nth-of-type(4) {
+		display: none;
+	}
+	
+	.button1 {
+		border: none;
+		padding: 0;
+		letter-spacing: 0.05em;
+		margin: 20px 11px 35px 0;
+		font-size: 14px;
+	}
+	
+	.negative .button1 {
+		border: none;
+	}
+	
+	.negative .button1:link,
+	.negative .button1:visited {
+		color: #c41230; 
+	}
+
+	.negative .button1:hover {
+		color: #222;
+	}
+
+	.negative .button1:active {
+		color: #999;
+	}
+	
+	
+	
+	.pozicije {
+		margin: 74px 0 80px; 
+	}
+	
+	
+	#about .wrapper {
+		width: 80%;
+		padding: 40px 10% 46px;
+	}
+	
+	#about h2 {
+		font-size: 40px;
+	}
+	
+	#about h6 {
+		margin: 0 0 32px;
+	}
+	
+	#about p:first-of-type {
+		margin-top: 45px;
+		margin-bottom: 46px;
+	}
+	
+	
+	
+	#social {
+		padding: 65px 0 73px;
+	}
+	
+	#social .icons a:nth-of-type(1) {
+		margin-right: 15px;
+	}
+	
+	#social .icons {
+		width: 143px;
+	}
+	
+	
+	
+	
+	#footerTop {
+		font-size: 16px;
+		padding-top: 61px;
+		padding-bottom: 70px;
+	}
+	
+	#footerTop .footerBlock {
+		width: auto;
+		float: none;
+		margin-right: 0;
+	}
+	
+	#footerTop .footerBlock:last-of-type {
+		width: auto;
+	}
+	
+	#footerTop .footerBlock h5 {
+		margin-top: 50px;
+	}
+	
+	
+	
+	#footerBottom {
+		padding: 0;
+		background: #222;
+	}
+	
+	#footerBottom .wrapper {
+		width: 100%;
+	}
+	#footerBottom .footerBlock {
+		float: none;
+		overflow: hidden;
+		width: 80%;
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+	
+	#footerBottom .footerBlock:first-of-type {
+		padding-top: 28px;
+		padding-bottom: 28px;
+		font-size: 14px;
+		letter-spacing: 0.01em;
+	}
+	
+	#footerBottom .footerBlock:last-of-type {
+		padding-top: 16px;
+		padding-bottom: 26px;
+		background: #1e1e1e;
+	}
+	
+	#footerBottom .footerBlock:first-of-type div:nth-of-type(2) {
+		float: left;
+	}
+
+	#footerBottom .footerBlock:first-of-type div:first-of-type {
+		float: right;
+		margin-top: 9px;
+	}
+	
+	#footerBottom .footerBlock i {
+		font-size: 36px;
+	}
+	
+	#footerBottom .footerBlock p:last-of-type {
+		display: block;
+	}
+	
+	#footerBottom .footerBlock p:first-of-type {
+		display: none;
+	}
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+@media screen and (max-width: 420px) {
+	.wrapper {
+		width: 80%;
+	}
+	
+	#headerTop .wrapper {
+		width: 100%;
+	}
+	
+	#logo {
+		margin-top: 13px;
+		margin-left: 5%;
+	}
+	
+	#headerTop .wrapper {
+		position: relative;
+	}
+	
+	#headerTop .wrapper div:nth-of-type(2) {
+		float: right;
+		margin-top: 23px;
+		margin-right: 5%;
+	}
+	
+	#respmenu {
+		display: block;
+	}
+	
+	#nav {
+		position: absolute;
+		float: none;
+		top: 70px;
+		width: 100%;
+		background: rgba(0, 0, 0, 0.9);
+		color: #ccc;
+	}
+	
+	#nav ul {
+		display: none;
+		padding-top: 128px;
+	}
+	
+	#nav ul li {
+		float: none;
+	}
+	
+	#nav ul li:last-of-type {
+		display: block;
+	}
+	
+	#nav ul li a {
+		font-size: 24px;
+		line-height: 24px;
+		letter-spacing: 0.01em;
+		text-align: center;
+		margin: 0 0 61px 0;
+	}
+	
+	#nav ul li a:link, 
+	#nav ul li a:visited {
+		color: #ccc;
+	}
+	
+	#nav ul li a:hover {
+		color: #c41230;
+	}
+	#nav ul li a:active {
+		color: #999; 
+	}
+	
+	#nav ul li div {
+		overflow: hidden;
+		padding-top: 56px;
+		padding-bottom: 17px;
+	}
+	
+	#nav ul li div span {
+		float: left;
+		margin-left: 5%;
+		font-size: 16px;
+		letter-spacing: 0.21em;
+	}
+	
+	#nav ul li div a {
+		float: right;
+		margin: 0;
+		font-size: 30px;
+	}
+	
+	#nav ul li div a:link,
+	#nav ul li div a:visited {
+		color: #9b9b9b;
+	}
+	
+	#nav ul li div a:hover {
+		color: #c41230;
+	}
+	#nav ul li div a:active {
+		color: #999; 
+	}
+	
+	#nav ul li div a:first-of-type {
+		margin-right: 5%;
+		margin-left: 27px;
+	}
+	
+	
+	
+
+	
+	#headerBottom {
+		padding: 110px 0 200px;
+	}
+		
+	
+	#headerBottom .wrapper {
+		width: 90%;
+	}
+	
+	h1 {
+		font-size: 60px;
+		letter-spacing: 0.01em;
+		line-height: 58px;
+	}
+	
+	#headerBottom hr {
+		display: none;
+	}
+	
+	#headerBottom p:nth-of-type(1) {
+		display: none;
+	}
+	
+	#headerBottom p:nth-of-type(2) {
+		display: block;
+		font-size: 20px;
+	}
+	
+	#headerBottom .wrapper div { 
+		width: auto;
+		margin: 0 auto;
+		margin-top: 45px;
+	}
+	
+	
+	#services {
+		padding-bottom: 88px;
+	}
+	
+	.service {
+		float: none;
+		width: auto;
+		padding: 52px 10% 66px;
+		font-size: 18px;
+		line-height: 30px;
+	}
+	
+	.service h4 {
+		margin: 30px 0;
+	}
+	
+	#poslovi .wrapper {
+		width: 80%;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	
+	#poslovi header p {
+		width: 80%;
+		line-height: 30px;
+		font-size: 20px;
+		margin: 40px auto 80px;
+	}
+	
+	#poslovi header h2 {
+		margin: 24px 0 27px;
+		font-size: 40px;
+		line-height: 24px;
+	}
+	
+	.jobAd .wrapper div:nth-of-type(1){
+		float: none;
+		width: auto;
+		padding-right: 0;
+	}
+	
+	.jobAd .wrapper div:nth-of-type(2) {
+		display: none;
+	}
+	
+	.jobAd {
+		background: #f8f7f5;
+	}
+	
+	.jobAd:nth-of-type(2) {
+		padding-bottom: 0;
+	}
+	
+	#poslovi .negative {
+		background: #fff;
+		color: #222;
+	}
+	
+	.jobAd h3 {
+		font-size: 18px;
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	
+	.jobAd p {
+		letter-spacing: 0.05em;
+		line-height: 20px;
+		font-size: 15px;
+	}
+	
+	.buttons ul li:nth-of-type(4) {
+		display: none;
+	}
+	
+	.button1 {
+		border: none;
+		padding: 0;
+		letter-spacing: 0.05em;
+		margin: 20px 11px 35px 0;
+		font-size: 14px;
+	}
+	
+	.negative .button1 {
+		border: none;
+	}
+	
+	.negative .button1:link,
+	.negative .button1:visited {
+		color: #c41230; 
+	}
+
+	.negative .button1:hover {
+		color: #222;
+	}
+
+	.negative .button1:active {
+		color: #999;
+	}
+	
+	
+	
+	.pozicije {
+		margin: 74px 0 80px; 
+	}
+	
+	
+	#about .wrapper {
+		width: 80%;
+		padding: 40px 10% 46px;
+	}
+	
+	#about h2 {
+		font-size: 40px;
+	}
+	
+	#about h6 {
+		margin: 0 0 32px;
+	}
+	
+	#about p:first-of-type {
+		margin-top: 45px;
+		margin-bottom: 46px;
+	}
+	
+	
+	
+	#social {
+		padding: 65px 0 73px;
+	}
+	
+	#social .icons a:nth-of-type(1) {
+		margin-right: 15px;
+	}
+	
+	#social .icons {
+		width: 143px;
+	}
+	
+	
+	
+	
+	#footerTop {
+		font-size: 16px;
+		padding-top: 61px;
+		padding-bottom: 70px;
+	}
+	
+	#footerTop .footerBlock {
+		width: auto;
+		float: none;
+		margin-right: 0;
+	}
+	
+	#footerTop .footerBlock:last-of-type {
+		width: auto;
+	}
+	
+	#footerTop .footerBlock h5 {
+		margin-top: 50px;
+	}
+	
+	
+	
+	#footerBottom {
+		padding: 0;
+		background: #222;
+	}
+	
+	#footerBottom .wrapper {
+		width: 100%;
+	}
+	#footerBottom .footerBlock {
+		float: none;
+		overflow: hidden;
+		width: 80%;
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+	
+	#footerBottom .footerBlock:first-of-type {
+		padding-top: 28px;
+		padding-bottom: 28px;
+		font-size: 14px;
+		letter-spacing: 0.01em;
+	}
+	
+	#footerBottom .footerBlock:last-of-type {
+		padding-top: 16px;
+		padding-bottom: 26px;
+		background: #1e1e1e;
+	}
+	
+	#footerBottom .footerBlock:first-of-type div:nth-of-type(2) {
+		float: left;
+	}
+
+	#footerBottom .footerBlock:first-of-type div:first-of-type {
+		float: right;
+		margin-top: 9px;
+	}
+	
+	#footerBottom .footerBlock i {
+		font-size: 36px;
+	}
+	
+	#footerBottom .footerBlock p:last-of-type {
+		display: block;
+	}
+	
+	#footerBottom .footerBlock p:first-of-type {
+		display: none;
+	}
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,322 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Diwanee Serbia</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=latin-ext" rel="stylesheet">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+
+<script>
+$(document).ready(function() {
+		
+	var respmenu 		= $('#respmenu');
+	var	menu 			= $('#nav>ul');
+
+	$(respmenu).on('click', function(e) {
+		e.preventDefault();
+		menu.slideToggle();
+	});
+	
+	$(window).resize(function(){
+		var sirina = $(window).width();
+		if(sirina > 768 && menu.is(':hidden')) {
+			menu.removeAttr('style');
+		}	
+	});
+	
+});	
+</script>
+
+
+<script type="text/javascript">
+	/* ovaj deo koda je sa sajta css-tricks */
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+</script>
+
+
+
+
+</head>
+
+<body>
+
+	<header id="header">
+	
+		<div id="headerTop">
+		
+			<div class="wrapper">
+			
+				<div id="logo">
+					<a href="index.html">
+						<img src="images/logo.png" alt="Logo">
+					</a>
+				</div>
+				
+				<div>
+					<a href="#" id="respmenu"><i class="fa fa-lg fa-navicon"></i></a>
+				</div>
+				
+				<div id="nav">
+					<ul>
+						<li><a href="#about">O nama</a></li>
+						<li><a href="#poslovi">Poslovi</a></li>
+						<li><a href="#social">Kontakt</a></li>
+						<li>
+							<div>
+								<span>PRATITE NAS</span>
+								<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+			
+		</div> <!-- end #headerTop -->
+		
+		<div id="headerBottom">
+			
+			<div class="wrapper">
+				<h1>Diwanee Serbia</h1>
+				<hr>
+				<div>
+					<p>Digital Media Agency always looking for motivated, multi-talented, and organized people to join our diverse team.</p>
+					<p>Digital Media Agency</p>
+				</div>
+				
+			</div>
+			
+		</div> <!-- end #headerBottom -->
+		
+	</header> <!-- end #header -->
+	
+	<section id="services">
+		<article class="service">
+			<span>
+				<img src="images/development.png" alt="Development">
+			</span>
+			<h4>DEVELOPMENT</h4>
+			<hr> 
+			<p>Front-end Developers play a critical role in most projects at Code and Theory. They are actively involved throughout the project lifecycle, often times starting with rapid prototypes early in the design phase. </p>
+			
+		</article>
+		<article class="service">
+			<span>
+				<img src="images/design.png" alt="Web design">
+			</span>
+			<h4>WEB &amp; UI DESIGN</h4>
+			<hr> 
+			<p>Front-end Developers play a critical role in most projects at Code and Theory. They are actively involved throughout the project lifecycle, often times starting with rapid prototypes early in the design phase. </p>
+			
+		</article>
+		<article class="service">
+			<span>
+				<img src="images/team.png" alt="Work in team">
+			</span>
+			<h4>WORK IN TEAM</h4>
+			<hr>
+			<p>Front-end Developers play a critical role in most projects at Code and Theory. They are actively involved throughout the project lifecycle, often times starting with rapid prototypes early in the design phase. </p>
+			
+		</article>
+	</section> <!-- end #services-->
+	
+	<section id="poslovi">
+		
+			<header>
+				<div class="wrapper">
+					<h6>OTVORENE POZICIJE</h6>
+					<h2>POSLOVI</h2>
+					<hr>
+					<p>We are always looking for motivated, multi-talented, and organized people to join our diverse team.</p>
+				</div>
+			</header>
+			
+			<article class="jobAd">
+			
+				<div class="wrapper">
+					<div>
+						<h3>Front-end Developer</h3>
+						<p>Tražimo Front End Developera sa odličnim poznavanjem i iskustvom više od godinu dana u Drupalu.</p>
+						<div class="buttons">
+							<ul>
+								<li><a href="" class="button1">&#35;HTML</a></li>
+								<li><a href="" class="button1">&#35;CSS</a></li>
+								<li><a href="" class="button1">&#35;JavaScript</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div>
+						<a href="" class="button">PRIJAVI SE</a>
+					</div>
+				</div>
+				
+			</article>
+			
+						
+			<article class="jobAd negative">
+			
+				<div class="wrapper">
+					<div>
+						<h3>Project Manager</h3>
+						<p>Tražimo Project Managera sa odličnim organizacionim sposobnostima i iskustvom vođenja digital projekata...</p>
+						<div class="buttons">
+							<ul>
+								<li><a href="" class="button1">&#35;HTML</a></li>
+								<li><a href="" class="button1">&#35;CSS</a></li>
+								<li><a href="" class="button1">&#35;Balsamiq</a></li>
+								<li><a href="" class="button1">&#35;UXpin</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div>
+						<a href="" class="button">PRIJAVI SE</a>
+					</div>
+				</div>
+				
+			</article>
+			
+			<article class="jobAd">
+			
+				<div class="wrapper">
+					<div>
+						<h3>UX/UI Designer</h3>
+						<p>Ako si kreativan i voliš da radiš u timu, poseduješ višegodišnje iskustvo iz oblasti digital dizajna, ux/ui...</p>
+						<div class="buttons">
+							<ul>
+								<li><a href="" class="button1">&#35;Sketch</a></li>
+								<li><a href="" class="button1">&#35;AdobeXD</a></li>
+								<li><a href="" class="button1">&#35;Photoshop</a></li>
+								<li><a href="" class="button1">&#35;Balsamiq</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div>
+						<a href="" class="button">PRIJAVI SE</a>
+					</div>
+				</div>
+				
+			</article>
+			
+			<div class="wrapper">
+				<a href="" class="pozicije">UČITAJ JOŠ POZICIJA</a>
+			</div>
+	
+	</section> <!-- end #poslovi -->
+	
+	<section id="about">
+		<div class="wrapper">
+			<h6>DIWANEE BEOGRAD</h6>
+			<h2>Digital Media Company</h2>
+			<hr>
+			<p>Diwanee je digitalna medijska kompanija, okrenuta velikoj ženskoj publici na Bliskom istoku. Naša kompanija stvara i distribuira originalan, visokokvalitetan i pouzdan sadržaj. Diwanee je takođe partner sa YouTube-om, i zajedno smo pokrenuli kanal "DUNIATI", nudeći na taj način sve vrste bogatog video sadržaja za arapske žene širom sveta.</p>
+			<p>Radimo sa velikim brojem brendova radi povećanja angažovanja, a sve u digitalnom prostoru. Diwanee je partner i sa velikim regionalnim vlasnicima medija, kako bismo upravljali svojom digitalnom prisutnošću.</p>
+		</div>
+	</section> <!-- end #about -->
+	
+	<section id="social">
+		<div class="wrapper">
+			<p>PRATITE NAS</p>
+			<div class="icons">
+					<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+			</div>
+		</div>
+		
+	</section> <!-- end #social -->
+	
+	<footer id="footer">
+		
+			<div id="footerTop">
+				<div class="wrapper">
+					<div class="footerBlock">
+						<h5><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;Dubai</h5>
+						<p>Office Park, Building Block A</p>
+						<p>Units A301-A302</p>
+						<p>Dubai Internet City</p>
+						<p>T: 971 4 - 434 7147</p>
+					</div>
+
+					<div class="footerBlock">
+						<h5><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;&nbsp;Beirut</h5>
+						<p>Dora, Seaside Road,</p>
+						<p>BCP bldg (Facing Demco Steel)</p>
+						<p>Mobile: 961 76 - 866 700</p>
+						<p>Fax: 961 1 - 244 846</p>
+					</div>
+
+					<div class="footerBlock">
+						<h5><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;&nbsp;Belgrade</h5>
+						<p>Resavska 33,</p>
+						<p>11000 Beograd</p>
+						<p>Tel: +381 11 - 3340 117</p>
+					</div>
+				</div>
+			</div>
+
+			<div id="footerBottom">
+			
+				<div class="wrapper">
+					<div class="footerBlock">
+						
+						<div>
+							<a href="">www.diwanee.com</a>
+						</div>
+						<div>
+							<a href=""><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+							<a href=""><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+						</div>
+						
+					</div>
+					<div class="footerBlock">
+						<p>COPYRIGHT © 2015  DIWANEEE SERBIA ALL RIGHTS RESERVED</p>
+						<p>COPYRIGHT © 2015  DIWANEEE SERBIA</p>
+					</div>
+				</div>
+
+			</div>
+		
+		
+	</footer> <!-- end #footer -->
+
+</body>
+</html>
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
